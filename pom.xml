@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>in.nikhila</groupId>
-	<artifactId>24-Docker</artifactId>
+	<artifactId>DockerExample</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>24-Docker</name>
 	<description>Demo project for docker</description>
@@ -36,6 +36,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>DockerExample</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
